@@ -1,0 +1,69 @@
+[absorb]
+	autoStageIfNothingStaged = true
+	oneFixupPerCommit = true
+	fixupTargetAlwaysSHA = true
+[alias]
+	yeet = "!git commit --no-gpg-sign --message \"fixup! $(curl --silent --fail https://whatthecommit.com/index.txt)\n\nDISCLAIMER: this commit message has been retrieved from whatthecommit.com.\""
+	yolo = "!git commit --no-gpg-sign --message \"Temporary commit, please fix me up somewhere!\""
+[color]
+	ui = "auto"
+[column]
+	ui = "auto,dense"
+[commit]
+	gpgSign = true
+	verbose = 2
+[core]
+	pager = delta
+[delta]
+	navigate = true
+	line-numbers = true
+	side-by-side = false
+	tabs = 4
+[diff]
+	algorithm           = "histogram"
+	colorMoved          = default
+	compactionHeuristic = true
+	renames             = "copies"
+	tool                = "meld"
+[difftool]
+	prompt = false
+[fetch]
+	output            = "compact"
+	prune             = true
+	pruneTags         = true
+	recurseSubmodules = true
+[filter "lfs"]
+	clean    = "git-lfs clean -- %f"
+	process  = "git-lfs filter-process"
+	required = true
+	smudge   = "git-lfs smudge -- %f"
+[grep]
+	extendedRegexp = true
+	lineNumber     = true
+[help]
+	autocorrect = 50
+[interactive]
+  diffFilter = delta --color-only
+[log]
+	decorate = "short"
+[merge]
+	commit = no
+	conflictstyle = diff3
+#	ff = no
+	tool = "meld"
+[pull]
+	ff = only
+[push]
+	default = "simple"
+[rebase]
+	missingCommitsCheck = "warn"
+	stat                = true
+[rerere]
+	autoupdate = true
+	enabled    = true
+[submodule]
+	recurse = true
+[tag]
+	sort = version:refname
+[url "ssh://git@github.com/"]
+	pushInsteadOf = "https://github.com/"
