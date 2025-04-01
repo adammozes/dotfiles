@@ -67,3 +67,5 @@
 	sort = version:refname
 [url "ssh://git@github.com/"]
 	pushInsteadOf = "https://github.com/"
+[maintenance]
+	repo = /home/mozi/workspace/github.com/formelio/pulse-health-platform

@@ -1,4 +1,5 @@
 fn_single_line = false
+group_imports = "StdExternalCrate"
 hard_tabs = false
 imports_granularity = "Module"
 indent_style = "Block"
@@ -7,4 +8,3 @@ reorder_impl_items = true
 style_edition = "2024"
 use_small_heuristics = "Max"
 wrap_comments = true
-group_imports = "StdExternalCrate"
