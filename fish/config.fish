@@ -2,6 +2,8 @@ fish_add_path -P /opt/homebrew/bin ~/.cargo/bin ~/.local/bin /bin /usr/bin
 set -gx GPG_TTY (tty)
 set -l uname "(uname)"
 set -gx RUSTFLAGS "-Ctarget-cpu=native"
+set -gx CC gcc-14
+set -gx CXX g++-14
 
 set -U FZF_COMPLETE 2
 set -U FZF_PREVIEW_FILE_CMD "bat --color=always"
