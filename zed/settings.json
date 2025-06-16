@@ -7,27 +7,28 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "auto_update": false,
+  "base_keymap": "JetBrains",
+  "buffer_font_faumily": "FiraCode Nerd Font",
+  "buffer_font_size": 16,
+  "completions": {
+    "lsp": true,
+    "lsp_fetch_timeout_ms": 50000
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_other_hints": true,
+    "show_parameter_hints": true,
+    "show_type_hints": true
+  },
   "outline_panel": {
     "dock": "right"
   },
   "project_panel": {
     "dock": "left"
   },
-  "buffer_font_faumily": "FiraCode Nerd Font",
-  "buffer_font_size": 16,
   "theme": "Tokyo Night Storm",
   "ui_font_family": "Lexend Deca",
   "ui_font_size": 16,
-  "vim_mode": true,
-  "completions": {
-    "lsp": true,
-    "lsp_fetch_timeout_ms": 50000
-  },
-  "base_keymap": "JetBrains",
-  "inlay_hints": {
-    "enabled": true,
-    "show_type_hints": true,
-    "show_parameter_hints": true,
-    "show_other_hints": true
-  }
+  "vim_mode": true
 }
