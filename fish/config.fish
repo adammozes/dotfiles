@@ -60,6 +60,7 @@ if status --is-interactive
     abbr -a -- grhoh 'git reset --hard origin/HEAD'
     abbr -a -- gr    'git rebase'
     abbr -a -- gri   'git rebase --interactive'
+    abbr -a -- grioh 'git rebase --interactive origin/HEAD'
   end
 
   abbr -a -- j     'journalctl --no-hostname -oshort-iso-precise --follow'
