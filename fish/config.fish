@@ -100,7 +100,4 @@ if status --is-interactive
       end;
       functions --erase __direnv_cd_hook;
   end;
-
-  tmux attach; or tmux
-
 end

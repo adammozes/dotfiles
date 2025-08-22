@@ -38,6 +38,7 @@
     "show": "system"
   },
   "show_whitespaces": "all",
+  "read_ssh_config": true,
   "ssh_connections": [
     {
       "host": "home.ligma.sbs",
