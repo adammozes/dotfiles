@@ -66,6 +66,7 @@ if status --is-interactive
   abbr -a -- j     'journalctl --no-hostname -oshort-iso-precise --follow'
   abbr -a -- r     'rsync --verbose --progress --recursive -z -z'
   abbr -a -- s     sudo
+  abbr -a -- t     'tmux attach; or tmux'
   abbr -a -- se    sudoedit
   abbr -a -- syu   'sudo pacman -Syyuu --noconfirm --downloadonly; sudo pacman -Syyuu --noconfirm; sudo pacman -Sc --noconfirm'
 
