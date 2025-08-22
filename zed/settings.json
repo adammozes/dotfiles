@@ -9,17 +9,22 @@
 {
   "auto_update": false,
   "base_keymap": "JetBrains",
-  "buffer_font_faumily": "FiraCode Nerd Font",
-  "buffer_font_size": 16,
+  "bottom_dock_layout": "full",
+  "buffer_font_family": "FiraCode Nerd Font",
+  "buffer_font_size": 14,
   "completions": {
     "lsp": true,
     "lsp_fetch_timeout_ms": 50000
   },
+  "disable_ai": true,
   "inlay_hints": {
     "enabled": true,
     "show_other_hints": true,
     "show_parameter_hints": true,
     "show_type_hints": true
+  },
+  "minimap": {
+    "show": "auto"
   },
   "outline_panel": {
     "dock": "right"
@@ -27,8 +32,24 @@
   "project_panel": {
     "dock": "left"
   },
-  "theme": "Tokyo Night Storm",
+  "restore_on_startup": "last_workspace",
+  "scrollbar": {
+    "git_diff": true,
+    "show": "system"
+  },
+  "show_whitespaces": "all",
+  "ssh_connections": [
+    {
+      "host": "home.ligma.sbs",
+      "projects": [
+        {
+          "paths": ["/home/mozi/workspace/gitlab.com/nvxxu2i/ligma"]
+        }
+      ]
+    }
+  ],
+  "theme": "Catppuccin Macchiato",
   "ui_font_family": "Lexend Deca",
-  "ui_font_size": 16,
+  "ui_font_size": 14,
   "vim_mode": true
 }
