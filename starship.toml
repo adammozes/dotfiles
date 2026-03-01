@@ -32,6 +32,9 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
+truncate_to_repo = false
+truncation_length = 100
+format = "[$path]($style)[$read_only]($read_only_style) "
 
 [docker_context]
 symbol = " "
@@ -79,7 +82,10 @@ symbol = " "
 symbol = " "
 
 [hostname]
-ssh_symbol = " "
+ssh_only = false
+ssh_symbol = ""
+trim_at = ''
+format = '[$hostname]($style):'
 
 [java]
 symbol = " "
@@ -203,3 +209,6 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+[username]
+format = '[$user]($style)@'
