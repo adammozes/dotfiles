@@ -68,7 +68,6 @@ if status --is-interactive
   abbr -a -- se    sudoedit
   abbr -a -- syu   'sudo pacman -Syyuu --noconfirm --downloadonly; sudo pacman -Suu --noconfirm ;and sudo pacman -Sc --noconfirm'
 
-  fortune | ponysay --wrap i
   thefuck --alias | source
 
   if ! set -q SSH_CONNECTION
