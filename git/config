@@ -32,11 +32,6 @@
 	prune             = true
 	pruneTags         = true
 	recurseSubmodules = true
-[filter "lfs"]
-	clean    = "git-lfs clean -- %f"
-	process  = "git-lfs filter-process"
-	required = true
-	smudge   = "git-lfs smudge -- %f"
 [grep]
 	extendedRegexp = true
 	lineNumber     = true
@@ -71,6 +66,5 @@
 	repo = /home/mozi/workspace/github.com/formelio/pulse-health-platform
 [difftool "difftastic"]
   cmd = difft "$MERGED" "$LOCAL" "abcdef1" "100644" "$REMOTE" "abcdef2" "100644"
-[user]
-	email = mozes.adam.istvan@proton.me
-	name = Adam Mozes
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/

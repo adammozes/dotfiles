@@ -7,54 +7,118 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "cli_default_open_behavior": "existing_window",
+  "git": {
+    "disable_git": false,
+    "enable_status": true,
+  },
+  "proxy": "",
+  "diagnostics": {
+    "inline": {
+      "padding": 3,
+    },
+  },
+  "document_folding_ranges": "on",
+  "semantic_tokens": "combined",
+  "which_key": {
+    "enabled": true,
+  },
+  "buffer_line_height": "standard",
+  "agent_buffer_font_size": 13.0,
+  "helix_mode": false,
+  "ui_font_weight": 400.0,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
   "auto_update": false,
   "base_keymap": "JetBrains",
   "bottom_dock_layout": "full",
-  "buffer_font_family": "FiraCode Nerd Font",
+  "buffer_font_family": "Fira Code",
   "buffer_font_size": 14,
+  "collaboration_panel": {
+    "dock": "left",
+  },
   "completions": {
     "lsp": true,
-    "lsp_fetch_timeout_ms": 50000
+    "lsp_fetch_timeout_ms": 50000,
   },
   "disable_ai": true,
+  "git_panel": {
+    "dock": "left",
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": true,
+        "command": "clippy",
+      },
+    },
+  },
   "inlay_hints": {
     "enabled": true,
     "show_other_hints": true,
     "show_parameter_hints": true,
-    "show_type_hints": true
+    "show_type_hints": true,
   },
   "minimap": {
-    "show": "auto"
+    "show": "auto",
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
+    "sort_mode": "mixed",
   },
+  "read_ssh_config": true,
   "restore_on_startup": "last_workspace",
   "scrollbar": {
     "git_diff": true,
-    "show": "system"
+    "show": "system",
   },
   "show_whitespaces": "all",
-  "read_ssh_config": true,
   "ssh_connections": [
     {
-      "host": "lazarous.tetra-adhara.ts.net",
-      "username": "mozi",
-      "args": [],
+      "host": "jack.ligma.mom",
+      "args": [
+        "-A"
+      ],
       "projects": [
         {
           "paths": [
-            "/home/mozi/workspace/gitlab.com/nvxxu2i/ligma/./"
+            "/home/mozi/workspace/codeberg.org/adammozes/ligma/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/mozi/workspace/github.com/formelio/neptune/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/mozi/workspace/github.com/formelio/pulse-health-platform/./"
           ]
         }
       ]
     }
   ],
-  "theme": "Catppuccin Macchiato",
-  "ui_font_family": "Lexend Deca",
-  "ui_font_size": 14,
-  "vim_mode": true
+  "theme": {
+    "mode": "dark",
+    "light": "Tokyo Night Light",
+    "dark": "Blade Runner 2049 Dark User Imput",
+  },
+  "ui_font_family": "Readex Pro",
+  "ui_font_size": 13.0,
+  "vim_mode": true,
 }

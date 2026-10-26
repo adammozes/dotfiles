@@ -49,7 +49,7 @@ if status --is-interactive
     abbr -a -- gpf   'git push --force-with-lease'
     abbr -a -- gp    'git push'
     abbr -a -- gpd   'git push --delete origin (git rev-parse --abbrev-ref HEAD)'
-    abbr -a -- gpm   'git push origin HEAD:master'
+    abbr -a -- gpm   'git push origin HEAD:main'
     abbr -a -- gra   'git rebase --abort'
     abbr -a -- gras  'git rebase --interactive --autosquash --keep-base origin/HEAD'
     abbr -a -- grc   'git rebase --continue'
